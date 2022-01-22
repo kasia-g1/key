@@ -20,13 +20,19 @@ input[type="submit"]:hover {
 input[type="submit"] {
 
     background-color: green;
-    transition: transform 200ms, box-shadow 200ms;
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, .2);
+}
+
+body {
+  background-color: #a2d7fa;
+  border: 10px dotted black;
+  padding: 35px;
+  background-clip: padding-box;
+  transition: transform 200ms, box-shadow 200ms;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, .2);
 }
 
 input[type="submit"]:hover,
 input[type="submit"]:focus {
-
   transform: scale(1.2);
   box-shadow: 0 5px 1px 2px rgba(0, 0, 0, .2);
 }
