@@ -21,3 +21,10 @@ input[type="submit"] {
 
     background-color: green;
 }
+
+body {
+  background-color: #a2d7fa;
+  border: 10px dotted black;
+  padding: 35px;
+  background-clip: padding-box;
+}
