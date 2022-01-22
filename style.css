@@ -20,4 +20,11 @@ input[type="submit"]:hover {
 input[type="submit"] {
 
     background-color: green;
+    transition: transform 200ms;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+
+  transform: scale(1.2);
 }
