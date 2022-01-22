@@ -10,23 +10,23 @@
   <body>
     <h1>FORM - przykladowe cwiczenia z gitem</h1>
     <div class="form1">
-      <form>
+      <form target="_blank" autocomplete="on" id="form1">
         <div>
-          <label class="description" id="title1" for="field1"
-            >Podaj imię:</label
+          <label class="description" id="title1" for="field1">Podaj imię:</label
           >
-          <input type="text" id="field1" name="field1" />
+          <input type="text" id="field1" name="field1" minlength="2"/>
         </div>
         <br />
         <div>
-          <label class="description" id="title2" for="field2"
-            >Podaj haslo:</label
+          <label class="description" id="title2" for="field2">Podaj haslo:</label
           >
           <input
             type="password"
             id="field2"
             name="field2"
             title="Minimum 8 znaków, jedna cyfra i jeden znak specjalny"
+            minlength="8"
+            required
           />
         </div>
         <br />
@@ -41,20 +41,20 @@
           <label class="description" id="title4" for="field4"
             >Ile lat doświadczenia:</label
           >
-          <input type="number" id="field4" name="field4" value="5" />
+          <input type="number" id="field4" name="field4" value="5" required/>
         </div>
         <br />
         <div class="textarea">
-          <label class="description" id="title5" for="field5"
-            >Opisz sprawę:</label
+          <label class="description" id="title5" for="field5">Opisz sprawę:</label
           >
           <div>
             <textarea
               name="field4"
               id="field4"
-              cols="10"
-              rows="5"
+              cols="43"
+              rows="10"
               spellcheck="true"
+              required
             ></textarea>
           </div>
         </div>
