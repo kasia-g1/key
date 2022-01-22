@@ -21,3 +21,11 @@ input[type="submit"] {
 
     background-color: green;
 }
+
+.password-valid{
+  border: 3px solid green;
+}
+
+.password-invalid{
+  border: 3px solid red;
+}
