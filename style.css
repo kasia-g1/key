@@ -1,3 +1,14 @@
+/*Dodanie custowmowej czcionki, zmieniony znak kropki w polu input*/
+@font-face {
+	font-family: 'fontello';
+	src: url('./font/fontello.eot?0000');
+	src: url('./font/fontello.eot?0000#iefix') format('embedded-opentype'),
+	     url('./font/fontello.woff2?0000') format('woff2'),
+	     url('./font/fontello.woff?0000') format('woff'),
+	     url('./font/fontello.ttf?0000') format('truetype'),
+	     url('./font/fontello.svg?0000#fontello') format('svg');
+}
+
 h1 {
   color: red;
   font-size: 2rem;
@@ -20,4 +31,12 @@ input[type="submit"]:hover {
 input[type="submit"] {
 
     background-color: green;
+}
+
+input[type="password"] {
+	font-family: "fontello";
+}
+
+input:focus[type="password"] {
+background-color: limegreen;
 }
