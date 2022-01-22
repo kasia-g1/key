@@ -49,6 +49,13 @@ input[type="submit"] {
   color: rgb(46, 46, 46);
 }
 
+.password-valid{
+  border: 3px solid green;
+}
+
+.password-invalid{
+  border: 3px solid red;
+}
 textarea {
   padding: 5px 22px;
 }
