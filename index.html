@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>formgit1</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -16,33 +23,45 @@
           <label class="description" id="title1" for="field1"
             >Podaj imię:</label
           >
-          <input type="text" id="field1" name="field1" />
+          <div class="input-wrapper">
+            <input type="text" id="field1" name="field1" />
+            <i class="fas fa-user-alt input-icon"></i>
+          </div>
         </div>
         <br />
         <div>
           <label class="description" id="title2" for="field2"
             >Podaj haslo:</label
           >
+          <div class="input-wrapper">
           <input
             type="password"
             id="field2"
             name="field2"
             title="Minimum 8 znaków, jedna cyfra i jeden znak specjalny"
           />
+          <i class="fas fa-lock input-icon"></i>
+          </div>
         </div>
         <br />
         <div>
           <label class="description" id="title3" for="field3"
             >Podaj email:</label
           >
+          <div class="input-wrapper">
           <input type="email" id="field3" name="field3" autofocus required />
+          <i class="fas fa-envelope input-icon"></i>
+          </div>
         </div>
         <br />
         <div>
           <label class="description" id="title4" for="field4"
             >Ile lat doświadczenia:</label
           >
+          <div class="input-wrapper">
           <input type="number" id="field4" name="field4" value="5" />
+          <i class="fas fa-hand-pointer input-icon"></i>
+          </div>
         </div>
         <br />
         <div>
@@ -61,7 +80,7 @@
           <label class="description" id="title5" for="field5"
             >Opisz sprawę:</label
           >
-          <div>
+          <div class="input-wrapper">
             <textarea
               name="field4"
               id="field4"
@@ -69,6 +88,7 @@
               rows="5"
               spellcheck="true"
             ></textarea>
+            <i class="fas fa-keyboard input-icon--text"></i>
           </div>
         </div>
         <div>

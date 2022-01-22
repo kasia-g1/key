@@ -13,6 +13,7 @@ h1 {
 }
 
 input {
+  padding: 5px 5px 5px 22px;
   border: 2px solid green;
   border-radius: 0.25rem;
 }
@@ -26,7 +27,31 @@ input[type="submit"]:hover {
 }
 
 input[type="submit"] {
+  padding: 1px 10px;
   background-color: green;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: rgb(46, 46, 46);
+}
+
+.input-icon--text {
+  top: 5px;
+  left: 5px;
+  position: absolute;
+  color: rgb(46, 46, 46);
+}
+
+textarea {
+  padding: 5px 22px;
 }
 
 input[type="reset"] {
