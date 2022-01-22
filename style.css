@@ -71,6 +71,7 @@ input[type="reset"] {
   cursor: pointer;
 }
 
+
 input[type="reset"]:hover {
   background-color: #eb7c50;
   border: 2px solid #f0652f;
